@@ -1,0 +1,55 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9883e0c02fe4d022b3fa9099edd2bd3d4b"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9870a150a630b0d3653757854b577a74fa"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98423991413c8dc6e346bb12d8fee4146d"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98b3bb794ccf49da5a2b7d0b2c64f7cab3"
+    }
+  ],
+  "containerPath" : "/Users/newmac/Documents/uutoken/JYBlockChainSDK/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/newmac/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/newmac/Library/Developer/Xcode/DerivedData/Pods-bxdjvjlgoeghueacnndxpyquctgw/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/newmac/Library/Developer/Xcode/DerivedData/Pods-bxdjvjlgoeghueacnndxpyquctgw/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

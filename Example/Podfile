@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+
+
+
+target 'JYBlockChainSDK_Example' do
+  pod 'JYBlockChainSDK', :path => '../'
+  pod "OpenSSL-Universal"
+  target 'JYBlockChainSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

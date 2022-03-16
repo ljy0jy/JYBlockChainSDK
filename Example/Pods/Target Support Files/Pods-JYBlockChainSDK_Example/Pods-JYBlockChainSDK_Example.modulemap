@@ -1,0 +1,6 @@
+framework module Pods_JYBlockChainSDK_Example {
+  umbrella header "Pods-JYBlockChainSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

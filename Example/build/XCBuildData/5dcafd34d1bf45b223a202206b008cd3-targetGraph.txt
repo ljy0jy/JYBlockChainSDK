@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+OpenSSL-Universal in Pods, no dependencies
+JYBlockChainSDK in Pods, depends on:
+OpenSSL-Universal in Pods (explicit)
+Pods-JYBlockChainSDK_Example in Pods, depends on:
+JYBlockChainSDK in Pods (explicit)
+OpenSSL-Universal in Pods (explicit)
+Pods-JYBlockChainSDK_Tests in Pods, depends on:
+Pods-JYBlockChainSDK_Example in Pods (explicit)

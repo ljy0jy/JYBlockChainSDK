@@ -1,0 +1,24 @@
+PODS:
+  - JYBlockChainSDK (1.0.0):
+    - OpenSSL-Universal
+  - OpenSSL-Universal (1.1.1300)
+
+DEPENDENCIES:
+  - JYBlockChainSDK (from `../`)
+  - OpenSSL-Universal
+
+SPEC REPOS:
+  trunk:
+    - OpenSSL-Universal
+
+EXTERNAL SOURCES:
+  JYBlockChainSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JYBlockChainSDK: a894eb2ac0bd58d91f4d3668a5a14c5f2b382dfd
+  OpenSSL-Universal: e7311447fd2419f57420c79524b641537387eff2
+
+PODFILE CHECKSUM: d6fb7a0d6ce509efd66af61f721a06bdfecefd9c
+
+COCOAPODS: 1.11.2
