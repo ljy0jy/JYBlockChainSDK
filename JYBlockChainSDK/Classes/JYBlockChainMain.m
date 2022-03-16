@@ -64,6 +64,7 @@ static inline NSUInteger BTCMnemonicIntegerFrom11Bits(uint8_t* buf, int bitIndex
 
 + (NSString *)mnemonicStringFromRandomData:(NSData *)entropy
 {
+   
     NSArray* wordList = [[self class] getWordList];
     if (!wordList) return nil;
     
@@ -79,7 +80,7 @@ static inline NSUInteger BTCMnemonicIntegerFrom11Bits(uint8_t* buf, int bitIndex
 
     //计算 sha256 哈希
     
-    NSMutableData *checksumHash = JYHash256(entropy);
+    NSMutableData *checksumHash = JYSHA256(entropy);
     
     //确保checkSum 16位中 高八位 有效位数的值有效，其他位 置0
     NSUInteger checksumLength = bitLength / 32;

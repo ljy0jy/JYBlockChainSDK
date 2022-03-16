@@ -1,6 +1,6 @@
 # JYBlockChainSDK
 
-JYBlockChainSDK是一个区块链钱包SDK，可以创建钱包，生成助记词，生成钱包地址，以及wif私钥
+JYBlockChainSDK是一个区块链钱包SDK，可以创建钱包，生成助记词，生成钱包地址，以及wif私钥  
 本SDK 需要依赖OpenSSL
 
 # 安装
