@@ -7,7 +7,6 @@
 //
 
 #import "JYViewController.h"
-#import "OpenSSL/OpenSSL.h"
 #import "JYBlockChainSDK/JYBlockChainSDK.h"
 
 @interface JYViewController ()
