@@ -8,7 +8,7 @@ JYBlockChainSDK是一个区块链钱包SDK，可以创建钱包，生成助记�
     pod "OpenSSL-Universal"    
     pod install  
     
-#如何使用
+# 如何使用
     Example里面的 JYViewController 有部分展示   
     import "JYBlockChainSDK/JYBlockChainSDK.h"  
 
