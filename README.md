@@ -3,14 +3,14 @@
 JYBlockChainSDK是一个区块链钱包SDK，可以创建钱包，生成助记词，生成钱包地址，以及wif私钥
 本SDK 需要依赖OpenSSL
 
-#安装
-    pod 'JYBlockChainSDK'
-    pod "OpenSSL-Universal"
-    pod install
+# 安装
+    pod 'JYBlockChainSDK'  
+    pod "OpenSSL-Universal"    
+    pod install  
     
 #如何使用
-    Example里面的 JYViewController 有部分展示 
-    import "JYBlockChainSDK/JYBlockChainSDK.h"
+    Example里面的 JYViewController 有部分展示   
+    import "JYBlockChainSDK/JYBlockChainSDK.h"  
 
     //创建一个钱包并生成助记词
     NSString *mnemonicString = [JYBlockChainMain generateMnemonicString:Entropy128];
